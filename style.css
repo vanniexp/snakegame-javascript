@@ -1,0 +1,14 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(234, 252, 255);
+    color: rgb(28, 29, 28);
+}
+
+.food{ 
+    border-radius: 10px;
+}
