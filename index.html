@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Snake Game - Javascript</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <img src="img/snaketitle.png">
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script defer src="/js/script.js"></script>
+  </head>
+
+  <body class="font-general">
+    <img src="img/snake_title.png" />
+    <div>Score: <span id="score"></span></div>
     <canvas id="snake" width="512" height="512"></canvas>
-</body>
+
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content">
+        <div class="w3-container">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-display-topright"
+            >&times;</span
+          >
+          <p>GAME OVER</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

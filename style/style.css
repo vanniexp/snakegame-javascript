@@ -1,0 +1,18 @@
+@font-face {
+    font-family: '8-BIT WONDER';
+    src: url('../fonts/8-BIT\ WONDER.TTF');
+}
+
+.font-general {
+    font-family: '8-BIT WONDER';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(235, 245, 247);
+    color: rgb(28, 29, 28);
+}
+
