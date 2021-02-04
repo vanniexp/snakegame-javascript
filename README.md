@@ -9,7 +9,7 @@
  
 | key        | direction           |  
 | ------------- |:-------------:|  
-| W     | up| 
-| A     | left      | 
-| S | down    |   
-| D | right |   
+| ↑     | up| 
+| ←     | left      | 
+| ↓ | down    |   
+| → | right |   
